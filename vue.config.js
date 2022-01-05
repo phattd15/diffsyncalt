@@ -1,3 +1,7 @@
 module.exports = {
-  publicPath: '/diffsyncalt/'
+  publicPath: '/diffsyncalt/',
+  devServer: {
+    proxy: 'https://diffsyncalter-server.herokuapp.com/',
+    https: true
+  }
 }
